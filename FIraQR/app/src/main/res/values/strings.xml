@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FIra+QR</string>
+    <string name="view_attendance">View Attendance</string>
+    <string name="scan">Scan</string>
+    <string name="save_attendance">save_attendance</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+    <string name="take_attendance">TAKE ATTENDANCE</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="id">ID</string>
+</resources>

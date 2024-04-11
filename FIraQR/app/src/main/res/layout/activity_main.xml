@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/scanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scan"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="159dp" />
+
+    <Button
+        android:id="@+id/scanner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_attendance"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="500dp" />
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scanner"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/scanner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="690dp" />
+
+    <Button
+        android:id="@+id/gener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gen"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="690dp" />
+
+    <Button
+        android:id="@+id/gene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gen"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="690dp" />
+
+</RelativeLayout>
